@@ -31,7 +31,7 @@ class DrivableMap {
      */
     public boolean addDrivable(String id, Drivable itemMap) {
         if (drivable_map.containsKey(id)) {
-            return true;
+            return false;
         } else {
             drivable_map.put(id, itemMap);
             return true;
